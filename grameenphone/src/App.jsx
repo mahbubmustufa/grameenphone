@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import React from 'react'
+import Nav from './comopnent/Nav'
+import Done from './comopnent/Done'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h2 className='text-4xl text-bold text-center'>hello</h2>
+      <Nav></Nav>
     </>
   )
 }
