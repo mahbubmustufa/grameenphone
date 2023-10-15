@@ -1,5 +1,6 @@
 import Button from "./Button"
 import Logo from "./Logo"
+import Manu from "./Manu"
 
 function Nav() {
   
@@ -10,13 +11,7 @@ function Nav() {
           {/* logo */}
           <Logo />
           {/*  menu items */}
-          <div class="hidden space-x-6 md:flex">
-            <a href="#" class="hover:text-darkGrayisBlue">Pricing</a>
-            <a href="#" class="hover:text-darkGrayisBlue">Product</a>
-            <a href="#" class="hover:text-darkGrayisBlue">About Us</a>
-            <a href="#" class="hover:text-darkGrayisBlue">Careers</a>
-            <a href="#" class="hover:text-darkGrayisBlue">Community</a>
-          </div>
+          <Manu />
           {/*  button  */}
           <Button>Get started</Button>
           {/*  Hanburger Icon  */}
