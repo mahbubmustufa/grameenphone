@@ -5,7 +5,7 @@ import FeaturesItem from "./FeaturesItem";
 export default function Features (){
     return(
 <>
-{/* <!-- fiture section --> */}
+{/* <!-- fiture section add so --> */}
 <section id="features">
   <div
     className="
