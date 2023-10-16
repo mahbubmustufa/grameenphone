@@ -1,7 +1,8 @@
 import React from 'react'
-import Nav from './comopnent/Nav'
-import Done from './comopnent/Done'
-import Hero from './comopnent/Hero'
+import Nav from './comopnent/Nav/Nav'
+import Hero from './comopnent/Hero/Hero'
+import Features from './comopnent/Features/Features'
+import Testimonials from './comopnent/Testimonials/Testimonials'
 
 function App() {
 
@@ -9,6 +10,8 @@ function App() {
     <>
       <Nav></Nav>
       <Hero />
+      <Features />
+      <Testimonials />
     </>
   )
 }

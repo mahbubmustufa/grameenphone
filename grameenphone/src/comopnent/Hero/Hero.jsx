@@ -1,7 +1,7 @@
-import Button from './Button'
+import Button from '../Button'
 import Headding from './Headding';
 import Images from './Image';
-import Paragraph from './Paragraph';
+import Paragraph from '../Paragraph';
 function Hero(){
     return(
 <section id="hero">
