@@ -1,4 +1,6 @@
-import TestimonialsItem from '../Testimonials/TestimonialsItem'
+import TestimonialsItem from '../Testimonials/TestimonialsItem';
+import Button from '../Button'
+
 
 export default function Testimonials (){
     return (
@@ -6,76 +8,24 @@ export default function Testimonials (){
              {/* <!-- Testimonials Container --> */}
         <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
           {/* <!-- testimonial 01 --> */}
-          <div
-            className="
-              hidden
-              flex-col
-              items-center
-              p-6
-              space-y-6
-              rounded-lg
-              bg-varyLigntGray
-              md:w-1/3 md:flex
-            "
-          >
-            <img
-              className="w-16 -mt-14 rounded-full"
-              src="https://news.simplybook.me/wp-content/uploads/2022/06/avatar-anisha-1.jpg"
-              alt="Logo"
-            />
-            <h5 className="text-bold font-lg">Anisha Li</h5>
-            <p className="text-sm text-darkGraisBlue">
-              Go form tracking progess at the milestone level all the way done
-              to the smallest of details. Never lose sight of the bigger picture
-              again.
-            </p>
-          </div>
+          
           {/* <!-- testimonial 02 --> */}
-          <TestimonialsItem></TestimonialsItem>
+          <TestimonialsItem className={"hidden md:flex md:w-1/3"} title={"Alim dar"} src={"https://c.ndtvimg.com/2021-02/sqetet4g_aleem-dar-afp_625x300_25_February_21.jpg"}>
+          Go form tracking progess at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again
+          </TestimonialsItem>
           {/* <!-- testimonial 03 --> */}
-          <div
-            className="
-              hidden
-              flex-col
-              items-center
-              p-6
-              space-y-6
-              rounded-lg
-              bg-varyLigntGray
-              md:w-1/3 md:flex
-            "
-          >
-            <img
-              className="w-16 -mt-14 rounded-full"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvtmv8VXhCxIVZP-JUAVL_40ZJJzQpFSYCoZsmu-pOA&s"
-              alt="Logo"
-            />
-            <h5 className="text-bold font-lg">Branden Mari</h5>
-            <p className="text-sm text-darkGraisBlue">
-              Go form tracking progess at the milestone level all the way done
-              to the smallest of details. Never lose sight of the bigger picture
-              again.
-            </p>
-          </div>
+          <TestimonialsItem  title={"Tailor Swift"} src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4mLkFa9oxiV3lVUum8rw1MZriWgLuxgs9Mr4uyYiFVOYMrbCOh9XaEhGBEfwZwbpvsBM&usqp=CAU"}>
+          Go form tracking progess at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again
+          </TestimonialsItem>
+          <TestimonialsItem className={'hidden md:flex md:w-1/3'} title={'Monali Thakur'} src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXB2MJGilAI2dcTVb7jCAG0N3GyIT_cNU_5KlhEhFXm4H3k-BfTF9pU-oWfN2IvzCAOdk&usqp=CAU'}>
+          Go form tracking progess at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again
+          </TestimonialsItem>
         </div>
 
         {/* <!-- button --> */}
         
-        <div className="my-16">
-          <a
-            href=""
-            class="
-              p-3
-              px-6
-              text-white
-              bg-brightRed
-              rounded-full
-              baseline
-              hover:bg-brightRedLight
-            "
-          >
-            Get Stargted
-          </a>
+        <div className="my-16 text-center">
+          <Button className={""}>Get Started</Button>
         </div>
         </>
     )

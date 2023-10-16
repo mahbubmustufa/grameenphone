@@ -26,7 +26,7 @@ function Hero(){
           {/* <!-- paragraph --> */}
           <Paragraph >Mango makes it simple for softwar teams to plane day to da task</Paragraph>
           <div className="flex justify-center md:justufy-Start">
-            <Button>Get Stargted</Button>
+            <Button className={'hidden'}>Get Stargted</Button>
             </div>
         </div>
         {/* <!-- Hero images --> */}

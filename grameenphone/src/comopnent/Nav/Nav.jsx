@@ -13,7 +13,7 @@ function Nav() {
           {/*  menu items */}
           <Manu />
           {/*  button  */}
-          <Button>Get started</Button>
+          <Button className={'hidden'}>Get started</Button>
           {/*  Hanburger Icon  */}
           <button
             class="hamburger md:hidden focus:outline-none"

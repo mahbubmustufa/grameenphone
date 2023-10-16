@@ -1,9 +1,11 @@
-function Button ({children}){
+function Button ({children, className}){
     return (
     <a
     href="#"
-    className="
-      hidden
+    className={`${className}
+      w-40
+      mx-auto
+      text-center
       p-3
       px-6
       text-white
@@ -12,7 +14,7 @@ function Button ({children}){
       baseline
       hover:bg-brightRedLight
       md:block
-    "
+    `}
   >
     {children}
   </a>

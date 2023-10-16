@@ -1,9 +1,6 @@
 import Paragraph from "../Paragraph";
 import FeaturesHeading from "./FeaturesHeading";
 import FeaturesItem from "./FeaturesItem";
-import ItemHeading from "./ItemHeading";
-import ItemText from "./ItemText";
-import NumnerList from "./NumberList";
 
 export default function Features (){
     return(
@@ -32,8 +29,20 @@ export default function Features (){
     </div>
 
 
-    
-    <NumnerList/>
+
+      {/* <!-- Numberd List  --> */}
+    <div className="flex flex-col space-y-8 md:w-1/2">
+      
+      <FeaturesItem itemNumber={'01'} title={'Track company-wide progress'} >
+        see how your day-to-day task fit into the wider vision . Go form tracking progess at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again
+      </FeaturesItem>
+      <FeaturesItem itemNumber={'02'} title={"Everything you deed in one place"}>
+        see how your day-to-day task fit into the wider vision . Go form tracking progess at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again
+      </FeaturesItem>
+      <FeaturesItem itemNumber={'03'} title={'What next do you want'}>
+        see how your day-to-day task fit into the wider vision . Go form tracking progess at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again
+      </FeaturesItem>
+    </div>
 
   </div>
 </section>
