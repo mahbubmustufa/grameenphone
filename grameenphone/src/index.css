@@ -42,4 +42,18 @@
   .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
   }
+
   
+  
+.fade-anim img {
+  animation: fadeAnim 0.5s ease-out;
+}
+
+@keyframes fadeAnim {
+  from{
+    opacity: 0;
+  }  
+  to{
+    opacity: 1;
+  }
+}
